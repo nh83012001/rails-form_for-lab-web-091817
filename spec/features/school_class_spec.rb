@@ -2,10 +2,10 @@ require 'rails_helper'
 
 
 describe 'form page' do
-  it 'form renders with the new action' do
-    visit new_school_class_path
-    expect(page).to have_content("School Class Form")
-  end
+  # it 'form renders with the new action' do
+  #   visit new_school_class_path
+  #   expect(page).to have_content("School Class Form")
+  # end
 
   it 'new form submits content and renders form content' do
     visit new_school_class_path
